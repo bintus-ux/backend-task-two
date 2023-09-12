@@ -15,3 +15,17 @@ DELETE REQUEST & FORMAT: Done making HTTP DELETE method along to the endpoint '/
 LIMITATIONS: On making a request to an endpoint, if the user id being passed in does not exist an error message "user does not exist" is returned.
 
 INSTRUCTIONS FOR DEPLOYING THE API ON A SERVER:
+On deployment with onRender.com:
+
+Click 'New' button to deploy new site
+Select Web Services
+Click and choose "Build and deploy from a Git repository"
+Connect with github repo "Backend-task-two"
+Fill in the options by inputting choice of site name for app
+Set runtime to node
+set build command to "npm install"
+set start command to "node index"
+Click the advanced setting button to setup environmental variables
+The environmental variables include; MONGO_URI = "mongodb+srv://cezerike:2468@cluster0.hcohyx5.mongodb.net/" 
+NODE_ENV = "production"
+PORT = 5000
